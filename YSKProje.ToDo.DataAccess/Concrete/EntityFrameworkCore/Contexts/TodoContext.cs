@@ -15,7 +15,7 @@ namespace YSKProje.ToDo.DataAccess.Concrete.EntityFrameworkCore.Contexts
         {
             //buraya kendidatabase'imizin connection stringi eklenmeli ve mutlaka migration yapılmalı.
             // optionsBuilder.UseSqlServer("server=DESKTOP-ULMF4IC;database=ToDo;user id =sa;password=654321;");
-            optionsBuilder.UseSqlServer("server=DESKTOP-ULMF4IC;database=ToDo;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("server=Ferhat;database=ToDo;Trusted_Connection=True;");
             base.OnConfiguring(optionsBuilder);
         }
 
